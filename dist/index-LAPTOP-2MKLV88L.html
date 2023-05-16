@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Chris Higgins Portfolio</title>
+  <link rel="stylesheet" href="./scss/main.css">
+</head>
+
+<body>
+  <nav class="navbar">
+    <div class="navbar__logo">
+      <a href="#">chris higgins</a>
+    </div>
+    <ul class="navbar__menu">
+      <li class="navbar__menu-item navbar__menu-item--active"><a href="#">Home</a></li>
+      <li class="navbar__menu-item"><a href="#">Projects</a></li>
+      <li class="navbar__menu-item"><a href="#">About</a></li>
+      <li class="navbar__menu-item"><a href="#">Contact</a></li>
+    </ul>
+    <button class="navbar__menu-btn">
+      <i class="fas fa-bars-staggered"></i>
+    </button>
+    <ul class="navbar__dropdown-menu">
+      <li class="navbar__dropdown-menu-item navbar__dropdown-menu-item--active"><a href="#">Home</a></li>
+      <li class="navbar__dropdown-menu-item"><a href="#">Projects</a></li>
+      <li class="navbar__dropdown-menu-item"><a href="#">About</a></li>
+      <li class="navbar__dropdown-menu-item"><a href="#">Contact</a></li>
+    </ul>
+  </nav>
+
+
+  <div class="intro">
+    <h1 class="intro__title">Hello! I'm <span class="intro__title-name">Chris</span>.</h1>
+    <p class="intro__text">Computing Student<span class="intro__text-developer"> / Aspiring Developer</span></p>
+  </div>
+
+  <section class="about">
+    <div class="container">
+      <h2 class="about__title">ABOUT ME</h2>
+      <p class="about__text">Growing up, I always had a passion for exploring new things and learning about different
+        cultures. As a result, I've been fortunate enough to travel to many different countries and immerse myself in
+        their unique ways of life. I'm also a music enthusiast and enjoy attending concerts and festivals whenever
+        possible.</p>
+      <p class="about__text">Despite my varied interests, I've found that IT is a field that challenges me and allows me
+        to be creative in problem-solving. Whether it's developing an innovative app or improving a company's database
+        system, I find the work to be both rewarding and intellectually stimulating.</p>
+    </div>
+  </section>
+
+  <h2 class="project__title">PROJECTS</h2>
+  <section class="project-cards">
+    <div class="project-card">
+      <div class="project-card__image">
+        <img src="img/pokedbPikachu.png" alt="Project Image">
+      </div>
+      <div class="project-card__content">
+        <h3 class="project-card__title">Pokédex Web App</h3>
+        <p class="project-card__description">ASP.NET MVC which connects to a custom API to retrieve Pokémon data.
+          Recently deployed to Azure Cloud.</p>
+        <a href="#" class="project-card__link">View Project</a>
+      </div>
+    </div>
+    <div class="project-card">
+      <div class="project-card__image">
+        <img src="img/beachHouse.png" alt="Project Image">
+      </div>
+      <div class="project-card__content">
+        <h3 class="project-card__title">Beach House Band Website</h3>
+        <p class="project-card__description">Fan website for one of my favourite bands using HTML/CSS, JavaScript,
+          jQuery, Flexbox, Bootstrap and others</p>
+        <a href="#" class="project-card__link">View Project</a>
+      </div>
+    </div>
+    <div class="project-card">
+      <div class="project-card__image">
+        <img src="img/blackjack.png" alt="Project Image">
+      </div>
+      <div class="project-card__content">
+        <h3 class="project-card__title">Blackjack Game</h3>
+        <p class="project-card__description">The classic game Blackjack made with C# for a programming assignment</p>
+        <a href="#" class="project-card__link">View Project</a>
+      </div>
+    </div>
+    <!-- <div class="project-card">
+    <div class="project-card__image">
+      <img src="https://via.placeholder.com/400x250" alt="Project Image">
+    </div>
+    <div class="project-card__content">
+      <h3 class="project-card__title">Project Title</h3>
+      <p class="project-card__description">Project description goes here. Keep it short and concise.</p>
+      <a href="#" class="project-card__link">View Project</a>
+    </div>
+  </div> -->
+  </section>
+
+  <footer class="footer">
+    <div class="footer__icons">
+      <a href="mailto:your.email@example.com" class="footer__icon footer__icon--email">
+        <i class="fas fa-envelope  fa-2x"></i>
+      </a>
+      <a href="https://github.com/yourusername" class="footer__icon footer__icon--github" target="_blank">
+        <i class="fab fa-github fa-2x"></i>
+      </a>
+      <a href="https://www.linkedin.com/in/yourusername" class="footer__icon footer__icon--linkedin" target="_blank">
+        <i class="fab fa-linkedin  fa-2x"></i>
+      </a>
+    </div>
+  </footer>
+
+  <script src="https://kit.fontawesome.com/c5a8baa346.js" crossorigin="anonymous"></script>
+  <script src="js/main.js"></script>
+</body>
+
+</html>

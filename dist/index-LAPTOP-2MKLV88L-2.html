@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Chris Higgins Portfolio</title>
+  <link rel="stylesheet" href="./scss/main.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
+</head>
+
+<body>
+  <nav class="navbar">
+    <div class="navbar__logo">
+      <a href="#">chris higgins</a>
+    </div>
+    <ul class="navbar__menu">
+      <li class="navbar__menu-item navbar__menu-item--active"><a href="#">Home</a></li>
+      <li class="navbar__menu-item"><a href="#">Projects</a></li>
+      <li class="navbar__menu-item"><a href="#">About</a></li>
+      <li class="navbar__menu-item"><a href="#">Contact</a></li>
+    </ul>
+    <button class="navbar__menu-btn">
+      <i class="fas fa-bars-staggered"></i>
+    </button>
+    <ul class="navbar__dropdown-menu">
+      <li class="navbar__dropdown-menu-item navbar__dropdown-menu-item--active"><a href="#">Home</a></li>
+      <li class="navbar__dropdown-menu-item"><a href="#">Projects</a></li>
+      <li class="navbar__dropdown-menu-item"><a href="#">About</a></li>
+      <li class="navbar__dropdown-menu-item"><a href="#">Contact</a></li>
+    </ul>
+  </nav>
+
+
+  <div class="intro">
+    <h1 class="intro__title">Hello! I'm <span class="intro__title-name">Chris.</span></h1>
+    <p class="intro__text">Computing Student<span class="intro__text-slash"> / </span>Aspiring Developer</p>
+  </div>
+
+  <section class="about">
+    <div class="container">
+      <h2 class="about__title">About Me</h2>
+      <p class="about__text">Hi there, I'm Chris. I'm a final year student in the Higher Diploma in Computing at ATU
+        Sligo. I'm currently living in Dublin,
+        but originally from Roscommon. I've always been fascinated by technology and creating things, which led me to
+        pursue online courses on platforms like Udemy
+        a few years ago. Through all these courses, I've gained experience in languages like C#, HTML, CSS/Sass, and I'm
+        currently learning React.
+      </p>
+      <p class="about__text">When I'm not working or studying away, you can find me going to gigs and music festivals, travelling, gaming, and
+        annoying friends with my fun facts.
+      </p>
+      <p class="about__text">I'm now looking for real-life experience in the IT field, where I can apply my knowledge
+        and continue to grow my skills.
+        Thank you for visiting my portfolio website, and I hope you enjoy exploring my recent projects. If you have any
+        questions please don't hesitate to get in touch!
+      </p>
+    </div>
+  </section>
+  <section class="projects">
+    <h2 class="project__title">Projects</h2>
+    <div class="projects__container">
+      <div class="projects__card">
+        <img class="projects__card-image" src="img/pokedbPikachu.png">
+        <h2 class="projects__card-title">Pokédex Web App</h2>
+        <p class="projects__card-description">ASP.NET app which connects to a custom-built API to retrieve data about
+          the original 151 Pokémon.</p>
+        <a class="projects__card-link" href="#">View Project</a>
+      </div>
+      <div class="projects__card">
+        <img class="projects__card-image" src="img/beachHouse.png">
+        <h2 class="projects__card-title">Band Website</h2>
+        <p class="projects__card-description">Fan website built using HTML/CSS, JavaScript, jQuery, Flexbox and
+          Bootstrap.</p>
+        <a class="projects__card-link" href="#">View Project</a>
+      </div>
+      <div class="projects__card">
+        <img class="projects__card-image" src="img/blackjack.png">
+        <h2 class="projects__card-title">Blackjack Game</h2>
+        <p class="projects__card-description">The classic game Blackjack with standard rules, created using C#.</p>
+        <a class="projects__card-link" href="#">View Project</a>
+      </div>
+      <!-- Add more project cards as needed -->
+    </div>
+  </section>
+
+  <section class="tech-stack">
+    <h2 class="tech-stack__title">Technologies</h2>
+    <div class="tech-stack__container">
+      <div class="tech-stack__card">
+        <i class="devicon-csharp-plain"></i>
+        <h3 class="tech-stack__card-title">C#</h3>
+      </div>
+      <div class="tech-stack__card">
+        <i class="devicon-javascript-plain"></i>
+        <h3 class="tech-stack__card-title">Javascript</h3>
+      </div>
+      <div class="tech-stack__card">
+        <i class="devicon-html5-plain"></i>
+        <h3 class="tech-stack__card-title">HTML 5</h3>
+      </div>
+      <div class="tech-stack__card">
+        <i class="devicon-css3-plain"></i>
+        <h3 class="tech-stack__card-title">CSS</h3>
+      </div>
+      <div class="tech-stack__card">
+        <i class="devicon-sass-original"></i>
+        <h3 class="tech-stack__card-title">Sass</h3>
+      </div>
+      <div class="tech-stack__card">
+        <i class="devicon-bootstrap-plain"></i>
+        <h3 class="tech-stack__card-title">Bootstrap</h3>
+      </div>
+      <div class="tech-stack__card">
+        <i class="devicon-mongodb-plain"></i>
+        <h3 class="tech-stack__card-title">MongoDB</h3>
+      </div>
+      <div class="tech-stack__card">
+        <i class="devicon-microsoftsqlserver-plain"></i>
+        <h3 class="tech-stack__card-title">MS SQL Server</h3>
+      </div>
+
+      <!-- Add more cards here -->
+    </div>
+  </section>
+
+  <!-- Contact section -->
+  <section class="contact" id="contact">
+    <h2>Get In Touch With Me</h2>
+    <div class="contact-form-container">
+      <div class="contact-form">
+        <form action="https://formspree.io/f/xpzedelw" method="POST">
+          <div class="form-control">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="sender-name" placeholder="Enter Your Name" class="input-field"
+              required />
+          </div>
+          <div class="form-control">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="sender-email" placeholder="Enter Your Email" class="input-field"
+              required />
+          </div>
+          <div class="form-control">
+            <label for="message">Message</label>
+            <textarea id="message" cols="60" rows="10" placeholder="Enter Your Message" name="message"
+              class="input-field" required></textarea>
+          </div>
+          <input type="submit" value="Submit" id="submit-btn" class="submit-btn" />
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="footer__icons">
+      <a href="mailto:your.email@example.com" class="footer__icon footer__icon--email">
+        <i class="fas fa-envelope  fa-2x"></i>
+      </a>
+      <a href="https://github.com/yourusername" class="footer__icon footer__icon--github" target="_blank">
+        <i class="fab fa-github fa-2x"></i>
+      </a>
+      <a href="https://www.linkedin.com/in/yourusername" class="footer__icon footer__icon--linkedin" target="_blank">
+        <i class="fab fa-linkedin  fa-2x"></i>
+      </a>
+    </div>
+  </footer>
+
+  <script src="https://kit.fontawesome.com/c5a8baa346.js" crossorigin="anonymous"></script>
+  <script src="js/main.js"></script>
+</body>
+
+</html>
