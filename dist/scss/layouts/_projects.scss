@@ -49,13 +49,13 @@
   }
 
   &__card-title {
-    font-size: 1.5rem;
+    font-size: 1rem;
     margin-bottom: 10px;
     font-weight: 800;
   }
 
   &__card-description {
-    font-size: 0.8rem;
+    font-size: 0.7rem;
     margin-bottom: 20px;
     font-weight: 300;
     height: 3rem;
@@ -77,26 +77,31 @@
     }
   }
 
-  // Responsive breakpoints
   @media (min-width: 768px) {
-    padding: 0 5rem;
-
     &__card {
       flex-basis: calc(50% - 20px);
       max-width: calc(50% - 20px);
     }
 
     &__card-description {
-      font-size: 1rem;
+      font-size: 0.7rem;
     }
   }
 
   @media (min-width: 1024px) {
-    padding: 0 10rem;
-
     &__card {
       flex-basis: calc(33.33% - 20px);
       max-width: calc(33.33% - 20px);
+    }
+  }
+
+  @media (min-width: 1280px) {
+    &__card-title {
+      font-size: 1.2rem;
+    }
+  
+    &__card-description {
+      font-size: 1rem;
     }
   }
 }
