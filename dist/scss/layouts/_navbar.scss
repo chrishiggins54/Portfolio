@@ -147,7 +147,7 @@ $navbar-hover: lighten($primary, 20%);
           font-weight: 500;
           font-size: 1.1rem;
 
-          &:hover{
+          &:hover {
             color: $navbar-hover;
           }
         }
@@ -160,12 +160,10 @@ $navbar-hover: lighten($primary, 20%);
   }
 
   @include media-md {
-
     padding: 0 4rem;
   }
 
   @include media-lg {
-
     padding: 0 10rem;
   }
 }
